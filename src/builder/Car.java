@@ -17,7 +17,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" + "type=" + type + "seats=" + seats + ", egine=" +
-                engine + ", hasGPS=" + hasGPS + ", hasTripComputer" + hasTripComputer + "}";
+        return "Car{" + "type=" + type + ", seats=" + seats + ", egine=" +
+                engine + ", hasGPS=" + hasGPS + ", hasTripComputer=" + hasTripComputer + "}";
     }
 }
