@@ -1,7 +1,8 @@
 package builder;
 
 public class Director {
-    public void consructSportsCar(CarBuilder builder){
+
+    public void constructSportsCar(CarBuilder builder) {
         builder.setCarType(CarType.SPORTS_CAR)
                 .setSeats(2)
                 .setEngine(Engine.V8)
@@ -9,7 +10,7 @@ public class Director {
                 .setTripComputer(true);
     }
 
-    public void consructSUV(CarBuilder builder){
+    public void constructSUV(CarBuilder builder) {
         builder.setCarType(CarType.SUV)
                 .setSeats(5)
                 .setEngine(Engine.V6)
